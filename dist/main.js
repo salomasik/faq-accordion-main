@@ -1,0 +1,1 @@
+"use strict";var items=document.querySelectorAll(".accordion button");function toggleAccordion(){for(var t=this.getAttribute("aria-expanded"),e=0;e<items.length;e++)items[e].setAttribute("aria-expanded","false");"false"==t&&this.setAttribute("aria-expanded","true")}items.forEach((function(t){return t.addEventListener("click",toggleAccordion)}));//# sourceMappingURL=main.js.map
